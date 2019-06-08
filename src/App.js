@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import MenuBar from "./MenuBar";
 import Wallet from "./Wallet";
 import SimpleDealingRates from "./SimpleDealingRates";
