@@ -1,0 +1,39 @@
+#root {
+    display: flex;
+}
+
+.contextMenu {
+    position: fixed;
+    background: white;
+    box-shadow: 2px 2px 2px 2px #708090;
+    transition: 0.3s;
+    display: none;
+    z-index: 999;
+}
+.contextMenu--option {
+        padding: 6px 50px 5px 10px;
+        min-width: 160px;
+        cursor: default;
+        font-size: .875em;
+}
+.contextMenu--option:hover {
+            background: linear-gradient(to top, #708090, white);
+            color: white;
+        }
+        
+.contextMenu--option:active {
+            color: #e9e9e9;
+            background: linear-gradient(to top, #708090, white);
+        }
+        
+.contextMenu--option__disabled {
+            color: #cfcfcf;
+            pointer-events: none;
+        }
+    
+.contextMenu--separator {
+        width: 100%;
+        height: 1px;
+        background: #708090;
+        margin: 0 0 0 0;
+    }
